@@ -1,5 +1,5 @@
-# Hands-on lattice calculations for the AUTH 2024 Accelerator Phyiscs course
-*T. Prebibaj, F. Asvesta, Y. Papaphilippou*
+# Hands-on lattice calculations for the AUTH 2025 Accelerator Phyiscs course
+*T. Prebibaj, F. Antoniou, F. Asvesta, Y. Papaphilippou*
 
 For corrections & suggestions contact: [tirsi.prebibaj@cern.ch](mailto:tirsi.prebibaj@cern.ch)
 
