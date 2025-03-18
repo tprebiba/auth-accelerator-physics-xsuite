@@ -1,0 +1,38 @@
+/******************************************************************************************
+ * BOOSTER
+ ******************************************************************************************/
+ call, file = 'psb.seq';
+ call, file = 'psb_fb_lhc.str';
+ call, file = 'psb_aperture.dbx';
+
+/******************************************************************************************
+ * beam, use
+ ******************************************************************************************/
+
+beam, particle=PROTON, pc=0.5708301551893517;
+
+use, sequence=psb1;
+
+/******************************************************************************************
+ * Flatten sequence
+ ******************************************************************************************/
+seqedit, sequence = psb1;
+flatten;
+refer=centre;
+endedit;
+use, sequence=psb1;
+
+/******************************************************************************************
+ * Install single RF cavity
+ ******************************************************************************************/
+CAVFINEM	: RFCAVITY, L:= 1e-6, VOLT:= 0.008*0, HARMON = 1, LAG:= 0.0, no_cavity_totalpath;
+select, flag = seqedit, clear;
+!select, flag = seqedit, class=BR_ACWFB;
+seqedit, sequence = psb1;
+flatten;
+!remove, element = selected;
+install, element = BR.C02, class=CAVFINEM, at=-1.8-1.5, from=BR.BHZ51;
+flatten;
+endedit;
+
+use, sequence=psb1;
