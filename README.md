@@ -12,45 +12,45 @@
 
 Το μάθημα είναι χωρισμένο σε 5 μέρη:
 
-- Μάθημα 1ο: Tracking basics (**Python notebook 1A**)
-    - Representing particles
-        - Exercise 1: representing a single particle in Python
-        - Exercise 2: representing multiple particles (a beam) in Python
-    - Accelerator elements
-        - Exercise 3: transfering particles in a drift space
-        - Exercise 4: focusing particles 
-    - Simple beamlines
-        - Exercise 5: transfer a particle in a beamline
+- Μάθημα 1ο: Τα βασικά του tracking (**Python notebook 1A**)
+    - Σύστημα συντεταγμένων και αναπαράσταση σωματιδίων
+        - Exercise 1: αναπαράσταση ενός σωματιδίου σε Python
+        - Exercise 2: αναπαράσταση πολλών σωματιδίων (δέσμης) σε Python  
+    - Μαγνητικά Στοιχεία
+        - Exercise 3: μεταφορά σωματιδίων σε χώρο ολίσθησης
+        - Exercise 4: εστίαση σωματιδίων
+    - Simple beam lines (γραμμες δεσμης)
+        - Exercise 5: μεταφορά σωματιδίου σε γραμμή δέσμης
 
-- Μάθημα 2ο: Single particle dynamics in simple beamlines (**Python notebook 1B**)
-    - The FODO cell
-        - Exercise 6: tracking in a FODO cell
-        - Exercise 7: x' of the FODO cell
-        - Exercise 8: multiple FODO cells
-        - Exercise 9: betatron oscillations
-        - Exercise 10: stability of the FODO cell
+- Μάθημα 2ο: Δυναμική ενός σωματιδίου σε απλές γραμμές δέσμης (**Python notebook 1B**)
+    - FODO cell
+        - Exercise 6: tracking σε ένα κελί FODO
+        - Exercise 7: x' του κελιού FODO  
+        - Exercise 8: πολλαπλά κελιά FODO  
+        - Exercise 9: ταλαντώσεις βήτατρον
+        - Exercise 10: σταθερότητα του κελιού FODO  
 
-- Μάθημα 3ο: Single particle dynamics in periodic systems (ring) (**Python notebook 2A**)
-    - Transverse dynamics in a ring
-        - Exercise 11: phase space in a stable ring
-        - Exercise 12: optics, trace and single particle emittance of the ring
-        - Exercise 13: stability of the ring
-        - Exercise 14: transport of Twiss functions
+- Μάθημα 3ο: Δυναμική ενός σωματιδίου σε περιοδικά συστήματα (δακτύλιοι) (**Python notebook 2A**)
+    - Εγκάρσια δυναμική σε δακτύλιο
+        - Exercise 11: φασικός χώρος σε σταθερό δακτύλιο (phase space in a stable ring)
+        - Exercise 12: οπτική, ίχνος (trace) και single particle emittance σε δακτύλιο
+        - Exercise 13: σταθερότητα του δακτυλίου  
+        - Exercise 14: μεταφορά των συναρτήσεων Twiss
 
-- Μάθημα 4ο: Tracking multiple particles (**Python notebook 2B**)
-    - Transverse dynamics of a beam
-        - Exercise 15: evolution of beam along a ring
-        - Exercise 16: beam with an offset 
-    - Beam emittance
-        - Exercise 17: preservation of the beam emittance
-        - Exercise 18: emittance and phase space area
+- Μάθημα 4ο: Tracking πολλών σωματιδίων σε δακτύλιο (**Python notebook 2B**)
+    - Εγκάρσια δυναμική δέσμης σωματιδίων
+        - Exercise 15: δέσμη σωματιδίων κατά μήκος ενός δακτυλίου
+        - Exercise 16: δέσμη με αρχική μετατόπιση
+    - Εκπεμπτικότητα δέσμης (beam emittance)
+        - Exercise 17: διατήρηση της εκπεμπτικότητας δέσμης (beam emittance)
+        - Exercise 18: emittance και εμβαδόν φασικού χώρου
 
 - Μάθημα 5ο: Tracking with Xsuite  (**Python notebook 3**)
     - The CERN Proton Synchrotron Booster (PSB)
-        - Exercise 19 (guided): load and plot the layout of the PSB
-        - Exercise 20 (guided): plot the optics functions
-        - Exercise 21 (guided): matching
-        - Exercise 22 (guided): tracking
-        - Exercise 23 (guided): reconstruct tune from turn-by-turn data
-        - Exercise 24 (guided): motion near a quadrupolar resonance - beta-beating
-        - Exercise 25 (guided): motion on a quadrupolar resonance - phase space
+        - Exercise 19: load and plot the layout of the PSB
+        - Exercise 20: plot the optics functions
+        - Exercise 21: matching
+        - Exercise 22: tracking
+        - Exercise 23: reconstruct tune from turn-by-turn data
+        - Exercise 24: motion near a quadrupolar resonance - beta-beating
+        - Exercise 25: motion on a quadrupolar resonance - phase space
