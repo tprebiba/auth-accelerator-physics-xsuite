@@ -2,9 +2,9 @@
 #### Φυσική των Επιταχυντών
 #### Μεταπτυχιακό Υποατομικής Φυσικής, 2o έτος
 #### Τμήμα Φυσικής / Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης
-#### Εαρινό εξάμηνο 2025 
+#### Εαρινό εξάμηνο 2026 
 
-*T. Prebibaj, F. Antoniou, F. Asvesta, Y. Papaphilippou*
+*T. Prebibaj, F. Antoniou, Y. Papaphilippou*
 
 Για διορθώσεις: [tirsi.prebibaj@cern.ch](mailto:tirsi.prebibaj@cern.ch)
 
